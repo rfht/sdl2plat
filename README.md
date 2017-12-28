@@ -7,6 +7,10 @@ returned
 
 link to SDL2 library when compiling
 
+Example compiler invocation:
+
+cc -I/usr/local/include/SDL2 -lSDL2 -L/usr/local/lib -o sdl2plat sdl2plat.c
+
 Usage:
 
 ./sdl2plat
